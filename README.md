@@ -1,11 +1,4 @@
----
-title: "Submissions to PDL"
-author: "Neal Marquez"
-date: "10/7/2021"
-output: html_document
----
-
-## R Markdown
+## Submissions to PDL
 
 For all submissions to the Population Demographics Lab (PDL) authors are required to provide a set of code which replicates the output (tables, figures, etc) of their analysis. For now the PDL is only accepting submissions which use the `R` programming language. Code for the submission must be hosted on a public facing git archive at the time of the submission (github, bitbucket, etc.), which will be copied and stored such that it meets NSF scientific reproducibility guidelines. The format of each project should resemble the directory structure seen below. 
 
@@ -25,6 +18,8 @@ project
     │   more_data.txt
     │   ...
 ```
+
+The `README.md` should be a brief explanation, a paragraph or two, explaining what the code in your project does and what users should know before trying to run your code. 
 
 The only file which should need to be run in order to replicate your analysis should be `main.R`. `main.R` should only be about 100 lines long, well commented and be the main set of code which produces your figures and tables. For most analyses 100 lines will probably not be enough space to replicate you're analysis. If this is the case, you will need to create additional `.R` files which to source which should be placed under a folder in the main project directory labeled simply `R`. In addition your analyses may also require data files which to pull from. These files should be placed in a subdirectory entitled `Data` as seen above.
 

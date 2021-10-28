@@ -5,6 +5,7 @@ rm(list = ls())
 library(smoothHP)
 library(dplyr)
 library(tidyr)
+library(ggplot2)
 
 # source other files which should be placed in the R folder
 # we will assume that the project folder is the root directory and all files

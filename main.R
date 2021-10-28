@@ -3,7 +3,8 @@ rm(list = ls())
 # please include a line on how installation may be achieved
 # remotes::install_github("nmmarquez/smoothHP")
 library(smoothHP)
-library(tidyverse)
+library(dplyr)
+library(tidyr)
 
 # source other files which should be placed in the R folder
 # we will assume that the project folder is the root directory and all files
